@@ -9,13 +9,13 @@
 }
 
 .container button {
-  background-color: black;
+  background-color: white;
   padding: 15px 30px;
   border-radius: 15px;
 }
 
 .container button:hover {
-  background-color: blue;
+  background-color: aquamarine;
   animation: fadeIn 1s;
 }
 

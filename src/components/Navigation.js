@@ -1,15 +1,18 @@
 import { default as Link } from "next/link";
 import styles from "./Navigation.module.css";
+import { motion } from "framer-motion";
+import {PopLink} from "./PopLink";
+
+
 
 const Navigation = () => {
   return (
     <div className={styles.container}>
       <div className={styles.navLeft}>
-        <Link href="/">snap</Link>
-        <Link href="/Features">Features</Link>
-        <Link href="/Company">Company</Link>
-        <Link href="/Careers">Careers</Link>
-        <Link href="About">About</Link>
+        <PopLink href="/" title="Pop" />
+        <PopLink href="/Features" title="Features" />
+        <PopLink href="/Company" title="Company" />
+        <PopLink href="/About" title="About" />
       </div>
       <div className={styles.navRight}>
         <Link href="/Login">Login</Link>
@@ -17,6 +20,6 @@ const Navigation = () => {
       </div>
     </div>
   );
-}
+};
 
 export default Navigation;

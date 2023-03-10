@@ -4,6 +4,10 @@
   padding: 2em;
 }
 
+.container link:hover {
+  font-weight: bold;
+}
+
 .navLeft {
   display: flex;
   justify-content: space-between;
