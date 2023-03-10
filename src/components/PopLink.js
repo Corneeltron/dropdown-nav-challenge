@@ -1,4 +1,3 @@
-import {motion} from 'framer-motion';
 import { default as Link } from "next/link";
 
 export const PopLink = ({href, title}) => (
