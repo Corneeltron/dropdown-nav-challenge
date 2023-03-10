@@ -39,7 +39,7 @@ export default function Home() {
             Get your team in sync, no matter your location. Streamline
             processes, create team rituals, and watch productivity soar.
           </h2>
-          <motion.button drag dragConstraints={{top: -50, left: -50, right: 50, bottom: 50}} whileHover={{ scale: 1.2 }}>Learn more</motion.button>
+          <button>Learn more</button>
           <div style={{display: "flex", width: "100%", justifyContent: "space-between"}}>
             <Image src={audiophile}/>
             <Image src={databiz} />
