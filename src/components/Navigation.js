@@ -1,6 +1,5 @@
 import { default as Link } from "next/link";
 import styles from "./Navigation.module.css";
-import { motion } from "framer-motion";
 import {PopLink} from "./PopLink";
 
 

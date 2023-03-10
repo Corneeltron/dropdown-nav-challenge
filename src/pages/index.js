@@ -4,7 +4,6 @@ import { Epilogue } from "next/font/google";
 import styles from "@/styles/Home.module.css";
 import Navigation from "@/components/Navigation";
 import Hero from "../../public/image-hero-desktop.png";
-import {motion} from 'framer-motion';
 import audiophile from "../../public/client-audiophile.svg"
 import databiz from "../../public/client-databiz.svg"
 import maker from "../../public/client-maker.svg"
